@@ -8,7 +8,10 @@ html {
 }
 
 body {
-	background-color: transparent;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  &.transparent {
+    background-color: transparent;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,6 +19,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-p {
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+.white-background {
+  background-color: #fff;
+}
+
+.well.dark {
+  background-color: #282828;
+  color: #fff;
+
+  & .grey {
+    color: #999;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  body {
+	 background-color: transparent;
+  }
 }

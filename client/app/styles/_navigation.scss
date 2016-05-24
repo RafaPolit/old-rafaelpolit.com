@@ -8,9 +8,20 @@
   }
 }
 
-
 .nav.navbar-nav > li > a {
   font-family: 'PAPYRUS', cursive;
   font-size: 150%;
   font-weight: bold;
+}
+
+.navbar {
+  border-radius: 0px 0px 4px 4px; 
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px; 
+    margin-bottom: 20px;
+  }
 }
