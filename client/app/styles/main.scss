@@ -67,6 +67,11 @@ body {
   }
 }
 
+@import "_fonts.scss";
+@import "_layout.scss";
+@import "_colors.scss";
+@import "_navigation.scss";
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {

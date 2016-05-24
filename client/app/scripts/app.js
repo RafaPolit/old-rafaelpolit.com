@@ -31,6 +31,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/miniblog', {
+        templateUrl: 'views/miniblog.html',
+        controller: 'MiniblogCtrl',
+        controllerAs: 'miniblog'
+      })
       .otherwise({
         redirectTo: '/'
       });

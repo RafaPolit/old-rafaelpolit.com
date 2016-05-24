@@ -1,0 +1,12 @@
+@at-root {
+  // Import the fonts
+  @font-face {
+    font-family: 'Papyrus';
+    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('../fonts/PAPYRUS.eot'), '../fonts/PAPYRUS.eot'));
+    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('../fonts/PAPYRUS.eot?#iefix'), '../fonts/PAPYRUS.eot?#iefix')) format('embedded-opentype'),
+         url(if($bootstrap-sass-asset-helper, twbs-font-path('../fonts/PAPYRUS.woff2'), '../fonts/PAPYRUS.woff2')) format('woff2'),
+         url(if($bootstrap-sass-asset-helper, twbs-font-path('../fonts/PAPYRUS.woff'), '../fonts/PAPYRUS.woff')) format('woff'),
+         url(if($bootstrap-sass-asset-helper, twbs-font-path('../fonts/PAPYRUS.ttf'), '../fonts/PAPYRUS.ttf')) format('truetype'),
+         url(if($bootstrap-sass-asset-helper, twbs-font-path('../fonts/PAPYRUS.svg#font'), '../fonts/PAPYRUS.svg#font')) format('svg');
+  }
+}

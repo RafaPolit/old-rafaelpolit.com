@@ -1,0 +1,16 @@
+/* */
+.header {
+  border-bottom: 0px;
+
+  & .navbar-brand {
+    font-family: 'PAPYRUS', cursive;
+    font-weight: bold;
+  }
+}
+
+
+.nav.navbar-nav > li > a {
+  font-family: 'PAPYRUS', cursive;
+  font-size: 150%;
+  font-weight: bold;
+}
